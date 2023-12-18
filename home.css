@@ -1,0 +1,38 @@
+main .boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    margin: 2%;
+    border-radius: 100%;
+    font-size: 150%;
+    text-align: center;
+
+}
+
+main .box1 {
+    direction: rtl;
+    background: url(./images/shutterstock_423134989_i.jpg);
+    width: 35%;
+    border-radius: 10%;
+    height: 450px;
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+main .box2 {
+    direction: rtl;
+    background: url(./images/גלידההה.jpg);
+    width: 35%;
+    border-radius: 10%;
+    height: 450px;
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

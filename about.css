@@ -1,0 +1,11 @@
+body{
+    background-image: url(./images/back-ice.png);
+    
+}
+.container{
+     margin: 0 auto;
+     max-width: 50%;
+}   
+p , h1{
+    text-align: center;
+}

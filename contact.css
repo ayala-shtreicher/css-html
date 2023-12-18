@@ -1,0 +1,16 @@
+form{
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid palevioletred;
+    border-radius: 24px;
+    width: 30%;
+    margin: 0 auto;
+}
+input , textarea{
+    background-color: wheat;
+    border-radius: 10px;
+    height: 50px;
+}
+textarea{
+    height: 75px;
+}

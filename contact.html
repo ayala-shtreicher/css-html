@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="cssAll.css">
+</head>
+
+<body>
+    <header>
+        <p id="name">Hello </p>
+        <div class="logo center">
+            <img src="./images/logo (2).png " alt="logo" class="img_logo">
+        </div>
+        <div class="counter">
+            <button class="minus">-</button>
+            <span class="count">0</span>
+            <button class="plus">+</button>
+        </div>
+        <nav class="container center">
+            <a href="./home.html">home</a>
+            <a href="./about.html">about</a>
+            <a href="./gallery.html">gallery</a>
+            <a href="./contact.html">cotact us</a>
+        </nav>
+    </header>
+    <main>
+        <form action="thanks.html">
+            <label>Name:</label><br>
+            <input type="text" name="txt_name" id="nameUser" required value="">
+            <br>
+            <label>Phone:</label><br>
+            <input type="tel" name="txt_phone" required>
+            <br>
+            <label>Email:</label><br>
+            <input type="email" name="txt_email" required>
+            <br>
+            <label>the reason you contact:</label><br>
+            <textarea placeholder="write here"></textarea><br>
+            <label>How to return:</label><br>
+            <label>Phone</label>
+            <input type="radio" name="returnWay" value="phone">
+            <label>Email</label>
+            <input type="radio" name="returnWay" value="email"><br>
+            <button><i class="fa fa-phone" aria-hidden="true"></i></button>
+        </form>
+    </main>
+    <footer class="center container-fluid">אילה שטרייכר ותמר פישר</footer>
+</body>
+<script type="text/javascript" src="./code.js"> </script>
+
+</html>
